@@ -1,0 +1,170 @@
+.slide {
+  height: 200px;
+  background: white;
+ /*  font-size: 3em; */
+  text-align: center;
+  line-height: 4em;
+  width: 100%;
+}
+
+
+.menu {
+  background: rgb(162, 238, 164);
+  padding: 0.5em;
+  text-align: center;
+  font-size: 1.2em;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+
+.menu-list{
+  list-style: none;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.menu-list__item a {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  padding: .5em;
+}
+
+.menu-list__item a:hover {
+  background: rgb(52, 100, 52);
+  color: white;
+}
+
+.title {
+  padding-top: 0.3em;
+  margin: 0.5em;
+  text-align: center;
+  color: black;
+}
+
+.title2 {
+  padding-top: 0.3em;
+  margin: 0.5em;
+  text-align: center;
+  color: black;
+}
+
+
+.article-float {
+  margin: 25px auto;
+  width: 90%;
+/*   border: 1px solid blue; */
+  overflow: hidden;
+}
+
+.article-float img {
+  width: 30%;
+  float: left;
+  margin: 15px;
+}
+
+.article-title {
+  margin: 25px auto;
+  width: 90%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.imagen{
+  width: 15%;
+  float: left;
+}
+
+.imagen2{
+  width: 15%;
+  float: right;
+}
+
+.titulo1{
+  text-align: center;
+  color: black;
+  font-size: 4em;
+  font-family: Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.footer{
+  background: rgb(162, 238, 164);
+  height: 200px;
+}
+
+.imagen3{
+  margin-top: 15px;
+  height: 80%;
+  float: left;
+}
+
+.imagen4{
+  margin-top: 15px;
+  height: 80%;
+  float: right;
+}
+
+.article-footer {
+  margin: 25px auto;
+  width: 90%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.text-footer{
+  text-align: center;
+  margin: 10px;
+  color: black;
+  font-size: 0.9rem;
+  font-family: Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.enlaceCreditos{
+  text-decoration: none;
+}
+
+.text-footer2{
+  text-align: center;
+  margin: 10px;
+  color: black;
+  font-size: 0.9rem;
+  font-family: Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.texto-generico{
+  text-align: justify;
+  padding-top: 5px;
+  line-height: 1.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+}
+
+i{
+  font-weight: bold;
+}
+
+.table {
+  width: 80%;
+  vertical-align: middle;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table td {
+  padding: 15px;
+}
+
+.table th {
+  text-align: center;
+  background-color: rgb(151, 223, 204);
+  padding: 15px;
+}
